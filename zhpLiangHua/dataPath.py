@@ -10,7 +10,8 @@ from pathlib import Path
 BASE_DIR=Path(__file__).resolve().parent.parent
 
 
-DATA=os.path.join(BASE_DIR,'updateData','data')
+#DATA=os.path.join(BASE_DIR,'updateData','data')
+DATA=os.path.join(BASE_DIR,'data')
 
 #K线
 KLINE=os.path.join(DATA,'kline')
